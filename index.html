@@ -1,0 +1,69 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<title>test de html</title>
+<body style="background-image: url(images/zehra-bet%C3%BCl-1.jpg)">
+<h1>Test de <span style="color:red">HTML</span></h1>
+<p>exemple de code : <em><strong>html et CSS</strong></em></p>
+<label for="LAdhesion">Formulaire d'adhésion</label>
+<p class="myClass">Plus d'information sur les membres</p>    
+<h2>information sur l'utilisateur</h2>
+    <form method="get" action="" id="UserForm" enctype="multipart/form-data">
+        <label for="UserNom">Nom</label>
+        <input id="UserNom" type="text" name="UserNom" placeholder="saisir votre nom">
+        <br>
+        <label for="UserPrenom">Prénom</label>
+        <input id="UserPrenom" type="text" name="UserPrenom" placeholder="saisir votre prénom" maxlength="30">
+        <br>
+        <label for="UserVille">Ville</label>
+        <select id="UserVille" name="UserVille">
+            <option value="Casablanca" selected>Casablanca</option>
+            <option value="Agadir">Agadir</option>
+            <option value="Rabat">Rabat</option>
+        </select>
+        <br>
+        <label for="UserAdresse">Adresse</label>
+        <textarea id="UsreAdresse" name="UsreAdresse" placeholder="Saisir votre adresse ici!"></textarea>
+        <br>
+        <label for="UserPW">Mot de passe</label>
+        <input id="UserPW" type="password" name="UserPW" maxlength="8">
+        <br>
+        <h3 style="color: cadetblue; background-color: bisque">Mes Compétences</h3>
+            <p>
+            <input id="UserSkills" type="checkbox" name="US_JEE" value="JEE">
+            <label for="UserSkills">JEE</label>
+            </p>
+            <p>
+            <input id="UserSkills" type="checkbox" name="US_NET" value=".Net">
+            <label for="UserSkills">.Net</label>
+            </p>
+        <h3 style="color: brown; background-color: beige">Mon Sexe</h3>
+            <p>
+            <input  type="radio" name="UserSexe" checked value="H">
+            <label for="UserSexe">Homme</label>
+            </p>
+            <p>
+            <input  type="radio" name="UserSexe" value="Femme">
+            <label for="UserSexe">Femme</label>
+            </p>
+        <h3 style="color: chocolate; background-color: darkgray">Mon CV</h3>
+        <label for="UserCV">Télécharger CV</label>
+        <input name="UserCV" type="file" >
+        <br>
+        <input type="hidden" name="UserCode" value="User019998">
+       <!--
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Effacer">
+        -->
+        <button type="button" class="btn myClass">Cliquer moi!</button>
+        <button type="submit" class="sub myClass">Envoyer</button>
+        <button type="reset">RAZ</button>
+    </form>
+    <ol style="list-style-image: url(images/blue-user-icon.png)">
+        <li>JEE</li>
+        <li>.Net</li>
+    </ol>
+</body>
+
+</html>
