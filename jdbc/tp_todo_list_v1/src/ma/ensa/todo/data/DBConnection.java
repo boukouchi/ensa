@@ -19,7 +19,7 @@ public class DBConnection {
 
 	public static Connection getConnection() {
 		try {
-			if (con == null)
+			//if (con == null)
 				con = DriverManager.getConnection(url, username, password);
 		} catch (SQLException e) {
 			getErrorException(e);
