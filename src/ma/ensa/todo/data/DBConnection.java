@@ -19,7 +19,7 @@ public class DBConnection {
 
 	public static Connection getConnection() {
 		try {
-			if (con == null)
+			//if (con == null)
 				con = DriverManager.getConnection(url, username, password);
 		} catch (SQLException e) {
 			getErrorException(e);
@@ -51,6 +51,6 @@ public class DBConnection {
 	}
 	/*
 	 * public static void main(String[] args){ Connection con=getConnextion();
-	 * System.out.println("connexion réussie"); }
+	 * System.out.println("connexion rÃ©ussie"); }
 	 */
 }
